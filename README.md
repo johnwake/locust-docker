@@ -43,3 +43,8 @@ docker run -d -p 8089:8089 \
 -e LOCUST_RUN_TIME='1m' \
 --name locust locust-docker:latest
 ```
+
+### Pass in custom locustfile from a url
+```bash
+-e LOCUST_LOCUSTFILE_PATH='https://github.com/johnwake/locust-docker/blob/master/locust-tasks/locustfile.py'
+```

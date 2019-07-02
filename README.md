@@ -1,5 +1,5 @@
 # Locust Docker
-Docker image for the [Locust](http://locust.io/) load testing tool and sample Kubernetes configuration files for distributed deployment.
+Docker image for the [Locust](http://locust.io/) load testing tool to be used as apart of CI.
 
 ## Usage
 The Docker image can be run standalone by passing a URL to your locustfile:
